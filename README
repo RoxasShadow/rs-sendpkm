@@ -1,0 +1,14 @@
+It's a fake Pokémon GTS server.
+rs-sendpkm.py is modificated version of ir-gts'sendpkm.py <http://code.google.com/p/ir-gts/>.
+To install, just copy `sendpkm.py` on /ir-gts/src/.
+Tested only on ir-gts 0.43 <http://code.google.com/p/ir-gts/>
+
+Feature added:
+	Giving a path, rs-sendpkm gives casually one of the .pkm/.3gpkm files which are in the directory at the game;
+	Otherwise of kill himself, when it gives a Pokémon at the game, rs-sendpkm waits another game to gives it another Pokémon, while it isn't killed;
+	Drag & drop;
+	A couple of rows to optimize the code.
+	
+Giovanni 'Roxas Shadow' Capuano
+	<http://www.giovannicapuano.net>
+	<http://www.technicianpokemon.com>
